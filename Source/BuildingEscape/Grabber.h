@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "Components/ActorComponent.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Grabber.generated.h"
 
 
@@ -27,4 +28,7 @@ public:
 
 private:
 	float Reach = 100.f; //How Far Player Reaches
+
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 };
+	
