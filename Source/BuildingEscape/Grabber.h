@@ -35,6 +35,8 @@ private:
 
 	///Ray Cast and grab whats in reach
 	void Grab();
+	///called when key released
+	void Release();
 
 };
 	
